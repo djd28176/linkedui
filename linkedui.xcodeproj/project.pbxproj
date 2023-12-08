@@ -11,6 +11,16 @@
 		CAD241602B22264800CDDF48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2415F2B22264800CDDF48 /* ContentView.swift */; };
 		CAD241622B22264A00CDDF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD241612B22264A00CDDF48 /* Assets.xcassets */; };
 		CAD241652B22264A00CDDF48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD241642B22264A00CDDF48 /* Preview Assets.xcassets */; };
+		CAD2416D2B22277400CDDF48 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2416C2B22277400CDDF48 /* SearchBarView.swift */; };
+		CAD241702B222B8000CDDF48 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2416F2B222B8000CDDF48 /* PostModel.swift */; };
+		CAD241722B222B8B00CDDF48 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241712B222B8B00CDDF48 /* NetworkModel.swift */; };
+		CAD241742B222D6100CDDF48 /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241732B222D6100CDDF48 /* InvitationView.swift */; };
+		CAD241762B2247F800CDDF48 /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241752B2247F800CDDF48 /* MyNetworkScreen.swift */; };
+		CAD241782B224BAB00CDDF48 /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241772B224BAB00CDDF48 /* PostCardView.swift */; };
+		CAD2417A2B226AA100CDDF48 /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD241792B226AA100CDDF48 /* ProfileAndPostView.swift */; };
+		CAD2417C2B236C3600CDDF48 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2417B2B236C3600CDDF48 /* PostView.swift */; };
+		CAD2417E2B23708000CDDF48 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2417D2B23708000CDDF48 /* HomeScreenView.swift */; };
+		CAD241802B23711E00CDDF48 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2417F2B23711E00CDDF48 /* TabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		CAD2415F2B22264800CDDF48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAD241612B22264A00CDDF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAD241642B22264A00CDDF48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD2416C2B22277400CDDF48 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		CAD2416F2B222B8000CDDF48 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		CAD241712B222B8B00CDDF48 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		CAD241732B222D6100CDDF48 /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		CAD241752B2247F800CDDF48 /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
+		CAD241772B224BAB00CDDF48 /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		CAD241792B226AA100CDDF48 /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		CAD2417B2B236C3600CDDF48 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		CAD2417D2B23708000CDDF48 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		CAD2417F2B23711E00CDDF48 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,8 @@
 		CAD2415C2B22264800CDDF48 /* linkedui */ = {
 			isa = PBXGroup;
 			children = (
+				CAD2416E2B222B6D00CDDF48 /* Models */,
+				CAD2416B2B22276200CDDF48 /* Views */,
 				CAD2415D2B22264800CDDF48 /* linkeduiApp.swift */,
 				CAD2415F2B22264800CDDF48 /* ContentView.swift */,
 				CAD241612B22264A00CDDF48 /* Assets.xcassets */,
@@ -65,6 +87,30 @@
 				CAD241642B22264A00CDDF48 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAD2416B2B22276200CDDF48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAD2416C2B22277400CDDF48 /* SearchBarView.swift */,
+				CAD241732B222D6100CDDF48 /* InvitationView.swift */,
+				CAD241752B2247F800CDDF48 /* MyNetworkScreen.swift */,
+				CAD241772B224BAB00CDDF48 /* PostCardView.swift */,
+				CAD241792B226AA100CDDF48 /* ProfileAndPostView.swift */,
+				CAD2417B2B236C3600CDDF48 /* PostView.swift */,
+				CAD2417D2B23708000CDDF48 /* HomeScreenView.swift */,
+				CAD2417F2B23711E00CDDF48 /* TabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAD2416E2B222B6D00CDDF48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAD2416F2B222B8000CDDF48 /* PostModel.swift */,
+				CAD241712B222B8B00CDDF48 /* NetworkModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +183,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD241782B224BAB00CDDF48 /* PostCardView.swift in Sources */,
+				CAD2417A2B226AA100CDDF48 /* ProfileAndPostView.swift in Sources */,
 				CAD241602B22264800CDDF48 /* ContentView.swift in Sources */,
+				CAD241702B222B8000CDDF48 /* PostModel.swift in Sources */,
+				CAD2416D2B22277400CDDF48 /* SearchBarView.swift in Sources */,
+				CAD241722B222B8B00CDDF48 /* NetworkModel.swift in Sources */,
 				CAD2415E2B22264800CDDF48 /* linkeduiApp.swift in Sources */,
+				CAD2417E2B23708000CDDF48 /* HomeScreenView.swift in Sources */,
+				CAD241742B222D6100CDDF48 /* InvitationView.swift in Sources */,
+				CAD2417C2B236C3600CDDF48 /* PostView.swift in Sources */,
+				CAD241802B23711E00CDDF48 /* TabView.swift in Sources */,
+				CAD241762B2247F800CDDF48 /* MyNetworkScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
